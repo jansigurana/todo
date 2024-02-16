@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.todo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.title {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
+}
+.delete-btn {
+  background-color: #ffffff;
+  color:#ff0b37;
+  font-family: "Roboto";
+  font-size: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  padding: 8px;
+}
+@media screen and (min-width: 768px){
+    .delete-btn{
+        font-size: 15px;
+        padding: 15px;
+    }
+}
